@@ -99,7 +99,7 @@ export default function CaensAccountUpsertPage() {
                 });
 
                 if (file) {
-                    await uploadAvatar(file as File, form.email);
+                    await uploadAvatar(file as File, true, form.email);
                 }
             }
 
