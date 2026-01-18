@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: "http",
+        protocol: "https",
         hostname: process.env.NEXT_PUBLIC_IMAGE_HOST!,
         port: process.env.NEXT_PUBLIC_IMAGE_PORT,
         pathname: "/**",
@@ -12,6 +12,12 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "lh3.googleusercontent.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "oxide-vegetation-managers-sort.trycloudflare.com",
+        port: "",
         pathname: "/**",
       },
     ],
