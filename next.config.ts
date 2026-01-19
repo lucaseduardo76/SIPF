@@ -16,7 +16,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "oxide-vegetation-managers-sort.trycloudflare.com",
+        hostname: "problems-step-path-performs.trycloudflare.com",
         port: "",
         pathname: "/**",
       },
